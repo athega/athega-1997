@@ -1,6 +1,3 @@
-<SCRIPT LANGUAGE="JavaScript">
-<!--
-
 var initiated = false;
 
 var offImages = new Array();
@@ -76,6 +73,3 @@ function BrowserIsOK() {
         return false;
     }
 }
-
-// -->
-</SCRIPT>
