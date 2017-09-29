@@ -34,6 +34,7 @@ function fade(br, bg, bb, r, g, b, steps) {
     for(var i=0; i<steps; i++) {
         window.setTimeout(function() { setbgColor(br+=stepr, bg+=stepg, bb+=stepb); }, i*50);
     }
+    window.setTimeout(function () { window.location="athega.html"; }, steps*50);
 }
 
 function Fader(toColor, step) {
@@ -50,8 +51,6 @@ function Fader(toColor, step) {
 
     fade(br, bg, bb, r, g, b, step);
 }
-
-window.location="athega.html";
 
 // -->
 </SCRIPT>
